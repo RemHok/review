@@ -3,12 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
     <title>Document</title>
+   
+   <style>
+        /* CSS selectors */
+        /* selector */
+        h1 {
+            color: blue;
+        }
+        /* class */
+        .text-red {
+            color: red;
+        }
+
+        /* ID */
+        #color-green{
+            color: green;
+        }
+
+        /* Attribute selector(?) */
+        [title] {
+            color: black;
+        }
+
+        [title="aqua"] {
+            color: aqua;
+        }
+
+        h1.flex#main[title="some title"] {
+
+        }
+        /* Selector path */
+        #mydiv > div h1 {
+
+        }
+
+
+
+   </style>
+
+    
+
 </head>
 <body>
-    <h1 id="header" class="text">Hello world</h1>
 
 
+    <button class="btn-color-blue">OK</button>
+    <div class="btn-color-blue">Div blue</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---
+    <h1 id="header">Blue</h1>
+    <h1 class="text-red">Red</h1>
+    <h1 id="color-green" class="text-red">Green</h1>
+    <h1 title="aqua">Black</h1>
+
+    <div id=unique_id title="Some title"></div>
+
+    <div id="mydiv" title="Some title" >
+        <span>
+
+
+        </span>
+        <div= id="id2">
+            <div id="id3">
+                <span>
+                    level 3
+                </span>
+            </div>
+                
+        </div>
+            <span>Text</span>
+            <h1>Header</h1>
+        </div>
+
+    </div>
+    -->
 
 </body>
 </html>
